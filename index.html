@@ -1,11 +1,83 @@
 <!DOCTYPE html>
 <html>
     <Head>
-        <title>
-
-        </title>
+        <title>Kalkulator  BMI</title>
+        <link rel="stylesheet" href="css/style.css">
     </Head>
     <body>
-    
+        <header>   
+            <h1>Kalkulator BMI</h1>
+        </header>
+        <main>
+            <section class="main-container">
+                <section class="container-item">
+                    <h2>Form BMI</h2>
+                    <p>The ideal body weight is everyone's dream. Not only 
+                        having a body shape that supports appearance, ideal 
+                        body weight also indicates a healthy body condition.
+                         How about you? Come on, calculate now on the BMI calculator.</p>
+
+                    <!--form section-->
+                    <section class="form-group">
+                        <div class= "form-gender">
+                            <label>Gender</label>
+                            <input type="radio" name="Gender" id="gender-male">
+                            <label for="gender-male">male</label>
+                            <input type="radio" name="Gender" id="gender-female">
+                            <label for="gender-male">female</label>
+                        </div>
+                        <div class= "form-input">
+                            <label>Weight (kg)</label>
+                            <input type="number">
+                        </div>
+                        <div class= "form-input">
+                            <label>Age (years)</label>
+                            <input type="number">
+                        </div>
+                        <div class= "form-input">
+                            <label>Height (cm)</label>
+                            <input type="number">
+                        </div>
+                        <div class= "form-input">
+                            <button>Calculate BMI</button>
+                        </div>
+                        <div class= "form-input">
+                            <button>Reset</button>
+                        </div>
+                    </section>
+                    <section>
+                        <div>
+                            <h4>Feature advantage</h4>
+                            <ol>
+                                <li>Calculating weight</li>
+                                <li>Determine the ideal weight category or not</li>
+                                <li>Preparing for a weight loss program</li>
+                            </ol>
+                        </div>
+                        <div>
+                            <p>
+                                This calculator should only be used by adults (pregnant 
+                                or nursing women should not rely on this BMI reading) and
+                                 no action should be taken based on its value other than 
+                                 consulting a qualified person such as a doctor.
+                            </p>
+                            <p>
+                                The calculator will give you an idea of how your weight
+                                 compares to the general value. Body Mass Index (or BMI) 
+                                 is calculated as your weight (in kilograms) divided by
+                                  the square of your height (in meters) or BMI = Kg/M2.
+                            </p>
+                        </div>
+                    </section>
+                </section>
+
+                <!--result section-->
+                <section class="container-item">
+                    <h2>Result</h2>
+                </section>
+            </section>
+        </main>
+        <footer></footer>
+        <script> src="js/script.js"</script>
     </body>
 </html>
