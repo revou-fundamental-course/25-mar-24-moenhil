@@ -25,27 +25,27 @@
                             <label for="gender-male">male</label>
                             <input type="radio" name="Gender" id="gender-female">
                             <label for="gender-male">female</label>
-                        </div>
+                        </div><br/>
                         <div class= "form-input">
                             <label>Weight (kg)</label>
                             <input type="number">
-                        </div>
+                        </div><br/>
                         <div class= "form-input">
                             <label>Age (years)</label>
                             <input type="number">
-                        </div>
+                        </div><br/>
                         <div class= "form-input">
                             <label>Height (cm)</label>
                             <input type="number">
-                        </div>
+                        </div><br/>
                         <div class= "form-input">
-                            <button>Calculate BMI</button>
-                        </div>
+                            <button type="button">Calculate BMI</button>
+                        </div><br/>
                         <div class= "form-input">
-                            <button>Reset</button>
+                            <button type="button" id="reset-botton">Reset</button>
                         </div>
                     </section>
-                    <section>
+                    <section class="feature-item">
                         <div>
                             <h4>Feature advantage</h4>
                             <ol>
@@ -56,16 +56,14 @@
                         </div>
                         <div>
                             <p>
-                                This calculator should only be used by adults (pregnant 
-                                or nursing women should not rely on this BMI reading) and
-                                 no action should be taken based on its value other than 
-                                 consulting a qualified person such as a doctor.
+                                This calculator should only be used by adults (pregnantor
+                                 nursing women should not rely on this BMI reading) and no
+                                  action should be taken based on its value other than consulting a qualified person such as a doctor.
                             </p>
                             <p>
-                                The calculator will give you an idea of how your weight
-                                 compares to the general value. Body Mass Index (or BMI) 
-                                 is calculated as your weight (in kilograms) divided by
-                                  the square of your height (in meters) or BMI = Kg/M2.
+                                The calculator will give you an idea of how your weight 
+                                compares to the general value. Body Mass Index (or BMI) is 
+                                calculated as your weight (in kilograms) divided by the square of your height (in meters) or BMI = Kg/M2.
                             </p>
                         </div>
                     </section>
@@ -73,7 +71,45 @@
 
                 <!--result section-->
                 <section class="container-item">
-                    <h2>Result</h2>
+                    <h2>Results</h2>
+                    <section class="container-result">
+                        <h3>overrweight</h3>
+                        <h1>24</h1>
+                        <h4>You are Overweight</h4>
+                        <button type="button"> Download BMI Result
+                        </button>
+                    </section>
+                    <section class="note-result">
+                        <h4>
+                            BMI Results between 23 and 25
+                        </h4>
+                        <p>
+                            You are in the overweight category.
+                            Best method for reducing weight is to manage calorie intake and
+                             do pyshical activity.
+                            If you are in this category,
+                             it's recommended to lower your weight to normal weight
+                        </p>
+                        <div>
+                            <button type="button">Nutritionist Consultation Via App</button>
+                            <button type="button">Nutritionist Online Registration</button>
+                        </div>
+                        <p>
+                            BMI does not fully represent a comprehensive diagnosis of a
+                             person's health and 
+                            disease risk. You need further consultation regarding your
+                             risks and concerns regarding your weight.
+                        </p>
+                    </section>
+                    <section class="container-result">
+                        <h3>Some diseases that come from obesity</h3>
+                        <h4>Diabetes</h4>
+                        <h4>Hypertension</h4>
+                        <h4>Heart disease</h4>
+                        <h4>Osteoarthritis</h4>
+                        <button type="button">Doctor Consultation Via App</button>
+                        <button type="button">Online Registration Now</button>
+                    </section>
                 </section>
             </section>
         </main>
